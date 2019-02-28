@@ -1,0 +1,174 @@
+
+body{
+  font-family: 'Montserrat';
+}
+#title{
+  background-color: #fed9ca;
+  color: #7d7d7d;
+
+}
+.container-fluid{
+  padding: 5% 15% 8%;
+}
+
+#title h3 {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.jobtitle .frontend{
+  text-decoration: none;
+  color: #c5c5c5;
+}
+
+.navbar{
+  padding: 0 0 4rem;
+  color: #7d7d7d;
+}
+.navbar .navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #7d7d7d;
+}
+.navbar button{
+  color: #7d7d7d;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #7d7d7d;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #ff8162;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* job */
+#job{
+  padding: 1% 12%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+#job h2{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+
+}
+#job h3{
+  font-size: 1rem;
+  font-family: "Montserrat";
+  /* font-weight: bold; */
+}
+
+.feature-box {
+  padding: 1%;
+  /* text-align: center; */
+}
+.feature-box p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* carousel */
+#thecarousel {
+  /* padding: 5% 15%; */
+  text-align: center;
+  background-color: #fed9ca;
+}
+#thecarousel h3{
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+
+
+#press {
+  text-align: center;
+  background-color: #fed9ca;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 10px;
+}
+
+
+/* download */
+#download{
+  background-color: #ffefe0;
+  text-align: center;
+  padding: 5% 15%;
+}
+#download h3{
+  color: #7d7d7d;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+#download .download-btn .download1{
+  text-decoration: none;
+  color: #fff;
+}
+#download .download-btn .download2{
+  text-decoration: none;
+  color: #000;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 5% 15%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* contact */
+#contactform{
+  text-align: center;
+  background-color: #ffefe0;
+}
+.contactme{
+  /* text-align: center; */
+}
+.contactme .contact-info .lab{
+  text-align: left;
+}
