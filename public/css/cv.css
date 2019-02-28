@@ -31,7 +31,9 @@ body{
   font-weight: bold;
   color: #7d7d7d;
 }
+
 .navbar button{
+  background-color: #6c5b7b;
   color: #7d7d7d;
 }
 
